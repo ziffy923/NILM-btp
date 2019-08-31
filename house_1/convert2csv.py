@@ -5,7 +5,7 @@ import pandas as pd
 print('hshshshshshsh')
 os.system('ls')
 
-path = '/home/ziffy/low_freq_copy/house_1'
+path = 'D:/BTP Project/low_freq/low_freq/house_1'
 
 files = []
 # r=root, d=directories, f = files
