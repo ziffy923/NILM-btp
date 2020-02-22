@@ -197,7 +197,6 @@ SQLAlchemy==1.2.11
 sseclient==0.0.24
 TA-Lib==0.4.17
 tabulate==0.8.2
-TBB==0.1
 tensorboard==1.10.0
 tensorflow==2.1.0
 tensorflow-estimator==2.1.0
