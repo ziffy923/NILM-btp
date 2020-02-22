@@ -170,7 +170,6 @@ PySocks==1.7.0
 pystan==2.19.0.0
 pytest==4.6.3
 python-dateutil==2.8.1
-pytrends==4.7.0
 pytz==2019.3
 pywinpty==0.5.5
 PyYAML==5.1
