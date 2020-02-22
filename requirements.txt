@@ -203,7 +203,7 @@ TBB==0.1
 tensorboard==1.10.0
 tensorflow==2.1.0
 tensorflow-estimator==2.1.0
-tensorflow-gpu==1.10.0
+tensorflow-gpu==1.15.2
 tensorflow-gpu-estimator==2.1.0
 termcolor==1.1.0
 terminado==0.8.2
