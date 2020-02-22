@@ -108,7 +108,6 @@ mock==2.0.0
 more-itertools==5.0.0
 mpl-finance==0.10.0
 multiprocess==0.70.8
-munch==2.5.0
 nbconvert==5.4.1
 nbformat==4.4.0
 ndg-httpsclient==0.5.1
