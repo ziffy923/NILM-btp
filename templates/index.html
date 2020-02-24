@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+     <title>Flask app</title>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    </head>
+
+    <body>
+        <h3>Testing Flask Machine Learning Model</h3>
+
+    <div>
+
+        </option>
+          <option value="2">Give input into model</option> <form action="/result" method="POST">
+        <label for="age">Pclass</label>
+        <input type="text" id="pclass" name="pclass">
+        <br>
+         <label for="age">Age</label>
+        <input type="text" id="age" name="age">
+        <br>
+         <label for="age">SibSp</label>
+        <input type="text" id="sibsp" name="sibsp">
+        <br>
+         <label for="age">Fare</label>
+        <input type="text" id="fare" name="fare">
+        <br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    </body>
+
+</html>
