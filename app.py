@@ -3,19 +3,23 @@ import flask
 from flask import Flask, render_template,jsonify, request
 import pickle
 import numpy as np
+# from keras.models import load_model
+import h5py
 
-# load model
+# prd_model = load_model('model-rc.hdf5')
+
 model = pickle.load(open('model.pkl','rb'))
 
-# app
-app = Flask(__name__)
 
-# routes
+app = Flask(__name__)
 
 @app.route('/')
 
-@app.route('/index')
+@app.route('/apitest')
+def apitest():
+    return 'API Working'
 
+@app.route('/index')
 def index():
     return flask.render_template('index.html')
 
@@ -49,9 +53,9 @@ def results():
         results = predict(to_predict_list)
 
         if int(results) == 1:
-            prediction = 'Results is 1'
+            prediction = 'API is Working -- Results is 1.'
         else:
-            prediction = 'Results is 0'
+            prediction = 'Results is 0.'
 
         return render_template("results.html", prediction=prediction)
 
