@@ -1,100 +1,18 @@
-/*body            { font-family: sans-serif; background: #eee; }*/
-/*a, h1, h2       { color: #377ba8; }*/
-/*h1, h2          { font-family: 'Georgia', serif; margin: 0; }*/
-/*h1              { border-bottom: 2px solid #eee; }*/
-/*h2              { font-size: 1.2em; }*/
+body            { font-family: sans-serif; background: #eee; }
+a, h1, h2       { color: #377ba8; }
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
 
-/*.page           { margin: 2em auto; width: 35em; border: 5px solid #ccc;*/
-                  /*padding: 0.8em; background: white; }*/
-/*.entries        { list-style: none; margin: 0; padding: 0; }*/
-/*.entries li     { margin: 0.8em 1.2em; }*/
-/*.entries li h2  { margin-left: -1em; }*/
-/*.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }*/
-/*.add-entry dl   { font-weight: bold; }*/
-/*.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;*/
-                  /*margin-bottom: 1em; background: #fafafa; }*/
-/*.flash          { background: #cee5F5; padding: 0.5em;*/
-                  /*border: 1px solid #aacbe2; }*/
-/*.error          { background: #f0d6d6; padding: 0.5em; }*/
-/* Style the header */
-/*.header {*/
-  /*padding: 10px 16px;*/
-  /*background: #555;*/
-  /*color: #f1f1f1;*/
-/*}*/
-
-/*!* Page content *!*/
-/*.content {*/
-  /*padding: 16px;*/
-/*}*/
-
-/*!* The sticky class is added to the header with JS when it reaches its scroll position *!*/
-/*.sticky {*/
-  /*position: fixed;*/
-  /*top: 0;*/
-  /*width: 100%*/
-/*}*/
-
-/*!* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) *!*/
-/*.sticky + .content {*/
-  /*padding-top: 102px;*/
-/*}*/
-
-body{
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/textured_paper_%402X.png);
-  background-blend-mode: multiply;
-  background-color: #e2d8d0;
-  background-repeat: repeat;
-  background-size: 800px;
-}
-
-svg {
-  height: 80vh;
-  width: 100%;
-  margin-top: 10vh;
-  opacity: 0.9
-}
-
-#illustration {
-   animation: squigglevision 0.5s infinite alternate;
-}
-
-@keyframes squigglevision {
-  0% {
-    filter: url('#sketch-0');
-  }
-  25% {
-    filter: url('#sketch-1');
-  }
-  50% {
-    filter: url('#sketch-2');
-  }
-  75% {
-    filter: url('#sketch-3');
-  }
-  100% {
-    filter: url('#sketch-4');
-  }
-}
-
-.path {
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  animation: paint 1s ease-in-out 1s forwards;
-}
-
-.path:nth-of-type(2) {
-  animation-delay: 2s;
-}
-
-@keyframes paint {
-  from {
-    stroke-dashoffset: 1;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
+.page           { margin: 2em auto; width: 35em; border: 5px solid #ccc;
+                  padding: 0.8em; background: white; }
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #cee5F5; padding: 0.5em;
+                  border: 1px solid #aacbe2; }
+.error          { background: #f0d6d6; padding: 0.5em; }
