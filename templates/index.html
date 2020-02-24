@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+
+<title>Flask app</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-container">
+<h1 style="text-align:center">NILM DL Prediction </h1>
+
+<style>
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+
+<p>
+     <div class="w3-panel w3-pale-green">
+      <p>
+        The data is taken from a REDD website. The trained deep learning model is made available to predict the energy segegator. The model is <b>95%</b>(approx) accurate. Enjoy! <br>PS: the site is still under construction.
+      </p>
+
+    </div>
+    <h1 style="text-align:center;">
+      <a href="https://github.com/iml-v/NILM-btp"> Github Repository </a>
+    </h1>
+
+
+
+
+</p>
+
+
+
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+      <div>
+
+        </option>
+          <p align="center"><b>Instruction </b>: fill the form to predict which appliance is running on mains power.</p>
+
+
+        <form action="/result" method="POST">
+        <label for="age">Pclass</label>
+        <input type="text" id="pclass" name="pclass">
+        <br>
+         <label for="age">Age</label>
+        <input type="text" id="age" name="age">
+        <br>
+         <label for="age">SibSp</label>
+        <input type="text" id="sibsp" name="sibsp">
+        <br>
+         <label for="age">Fare</label>
+        <input type="text" id="fare" name="fare">
+        <br>
+
+        <input type="submit" value="Submit">
+        <button type="button" onclick="alert('GKS God h !')">Me Chitti!</button>
+
+      </form>
+
+    </div>
+</div>
+
+    </body>
+</head>
+</html>
