@@ -4,7 +4,7 @@ from flask import Flask, render_template,jsonify, request
 import pickle
 import numpy as np
 # from keras.models import load_model
-# import h5py
+import h5py
 
 # prd_model = load_model('model-rc.hdf5')
 
@@ -37,11 +37,12 @@ def predict(to_predict_list):
     # return jsonify(results=output)
     to_predict = np.array(to_predict_list).reshape(1, 4)
     loaded_model = pickle.load(open("model.pkl", "rb"))
-    result = model.predict(to_predict)
+    result = loaded_model.predict(to_predict)
     return result[0]
 
 @app.route('/result',methods=['POST'])
 def results():
+
     if request.method =='POST':
         to_predict_list= request.form.to_dict()
         to_predict_list = list(to_predict_list.values())
