@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<body>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!--<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">-->
+
+</head>
 
 
-<title>Flask app</title>
+<title>NILM Deep Learning Model</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -37,55 +45,53 @@ a:active {
 
 
 <p>
-     <div class="w3-panel w3-pale-green">
-      <p>
-        The data is taken from a REDD website. The trained deep learning model is made available to predict the energy segegator.
-    The model is <b>95%</b>(approx) accurate. Enjoy! <br>
-        <p align="center"> PS: the site is still under construction.</p>
+    <div class="w3-panel w3-pale-green">
+    <p>The data is taken from a REDD website. The trained deep learning model is made available to predict the energy segegator.
+        The model is <b>95%</b>(approx) accurate. Enjoy! <br> <p align="center"> PS: the site is still under construction.</p>
+    </p>
 
-      </p>
     </div>
+
     <h1 style="text-align:center;">
-      <a href="https://github.com/iml-v/NILM-btp"> Github Repository </a>
+      <a href="https://github.com/iml-v/NILM-btp"> Github Code Repository </a>
     </h1>
-
-
-
 
 </p>
 
+<body>
 
 
 
-    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
-      <div>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+<div class="login">
 
-        </option>
-          <p align="center"><b>Instruction </b>: fill the form to predict which appliance is running on mains power.</p>
+<!--</option>-->
+
+<p align="center"><b>Instruction </b>: fill the form to predict which appliance is running on mains power.</p>
 
 
-        <form action="/result" method="POST">
-        <label for="age">Pclass</label>
-        <input type="text" id="pclass" name="pclass">
-        <br>
-         <label for="age">Age</label>
-        <input type="text" id="age" name="age">
-        <br>
-         <label for="age">SibSp</label>
-        <input type="text" id="sibsp" name="sibsp">
-        <br>
-         <label for="age">Fare</label>
-        <input type="text" id="fare" name="fare">
-        <br>
+    <form action="/result" method="POST">
+    <label for="mains_1">Mains 1 (in Watts)</label>
+    <input type="text" id="mains_1" name="mains_1" placeholder=" Mains_1" required="required" />
+    <!--<br>-->
+     <label for="mains_2">Mains 2 (Watts)</label>
+    <input type="text" id="mains_2" name="mains_2" placeholder=" Mains_2" required="required" />
+     <!--<br>-->
 
-        <input type="submit" value="Submit">
-        <button type="button" onclick="alert('GKS God h !')">Me Chitti!</button>
+    <div class="login">
 
-      </form>
+    <input type="submit" class="btn btn-primary btn-block btn-large" value="Predict Appliance" >
 
     </div>
-</div>
 
-    </body>
-</head>
+    <!--<button type="button" onclick="alert('GKS God h !')">Me Chitti!</button>-->
+
+    </form>
+
+
+    </div>
+
+    </div>
+
+</body>
 </html>
