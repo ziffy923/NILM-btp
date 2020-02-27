@@ -1,20 +1,176 @@
-<!doctype html>
-<html>
-   <body>
-      <!--{% for item in prediction %}-->
-         <!--<p> {{ item }} </p>-->
-      <!--{% endfor %}-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> NILM Deep Learning Model </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="static/images/icons/cat.png"/>
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap-reboot.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/css/util.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--===============================================================================================-->
+</head>
 
-    <div class="w3-panel w3-pale-green">
+<body>
 
-        <p>Output for each Appliance is here :)</p>
+<style>
+    body{
+      /*background-image: url("static/images/gifs/ezgif.com-rotate.gif"), url("static/images/gifs/ezgif.com-crop.gif");*/
+      background-size: auto;
+      background-position: 95% 10%, 5% 10%;
+       /*background-position: right center, left center; */
+      background-size: 20%;
+      background-attachment: inherit;
+      background-repeat: no-repeat, no-repeat;
+      background-color: #E6E2E1;
+    }
+  </style>
+
+  <div id="example1" class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100">
+          <div style="max-width:25%; margin-left: auto; margin-right: auto;">
+            <center>
+              <img src="https://www.iitr.ac.in/departments/CSE/uploads/Misc/IITR_logo/IITR_new_logo_color.jpg" alt="IIT Roorkee Logo" width="400" height="400">
+            </center>
+          </div>
+
+        <center>
+
+        <br>
+         <br>
+        <b id="rcorners1">Output for each Appliance is below</b>
+ <br> <br>
+        </center>
+
+        <br>
+
     </p>
 
-        {{prediction}}
+        <!--{{prediction}}-->
+
+    <div>
+    <table id="rcorners1" style="text-align: center;">
+
+            <thead >
+              <tr class="table100-head">
+                <th class="column1" id="rcorners1">Output</th>
+                <th colspan="2" class="column1" id="rcorners1">Each Appliance Power </th>
+              </tr>
+              <tbody>
+                
+             
+            <tr>
+                  <!-- <td rowspan="8" class="column1">{{ chat_in }}</td> -->
+
+                  <td class="column1">{{'oven 3'}}</td>
+                  <td class="column2">{{ ( prediction['oven_3'])}}</td>
+                </tr>
+             <tr>
+                  <td class="column1">{{'oven_4'}}</td>
+                  <td class="column2">{{ prediction['oven_4'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'dishwaser_6'}}</td>
+                  <td class="column2">{{ prediction['dishwaser_6'] }}</td>
+                </tr>
+                <tr>
+                  <td class="column1">{{'kitchen_outlets_7'}}</td>
+                  <td class="column2">{{ (prediction['kitchen_outlets_7'] )}}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'kitchen_outlets_8'}}</td>
+                  <td class="column2">{{ prediction['kitchen_outlets_8'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'lighting_9'}}</td>
+                  <td class="column2">{{ prediction['lighting_9'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'washer_dryer_10'}}</td>
+                  <td class="column2">{{ prediction['washer_dryer_10'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'microwave_11'}}</td>
+                  <td class="column2">{{ prediction['microwave_11'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'bathroom_gfi_12'}}</td>
+                  <td class="column2">{{ prediction['bathroom_gfi_12'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'electric_heat_13'}}</td>
+                  <td class="column2">{{ prediction['electric_heat_13'] }}</td>
+                </tr>
+                <tr>
+                  <td class="column1">{{'stove_14'}}</td>
+                  <td class="column2">{{ prediction['stove_14'] }}</td>
+                </tr>
+                <tr>
+                  <td class="column1">{{'kitchen_outlets_15'}}</td>
+                  <td class="column2">{{ prediction['kitchen_outlets_15'] }}</td>
+                </tr>
+                <tr>
+                  <td class="column1">{{'kitchen_outlets_16'}}</td>
+                  <td class="column2">{{ prediction['kitchen_outlets_16'] }}</td>
+                </tr>
+                <tr>
+                  <td class="column1">{{'lighting_17'}}</td>
+                  <td class="column2">{{ prediction['lighting_17'] }}</td>
+                </tr>
+                <tr>
+                  <td class="column1">{{'lighting_18'}}</td>
+                  <td class="column2">{{ prediction['lighting_18'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'washer_dryer_19'}}</td>
+                  <td class="column2">{{ prediction['washer_dryer_19'] }}</td>
+                </tr>
+                 <tr>
+                  <td class="column1">{{'washer_dryer_20'}}</td>
+                  <td class="column2">{{ prediction['washer_dryer_20'] }}</td>
+                </tr>
+
+            </thead>
+      
+            </tbody>
+          </table>
+
+        <div style="text-align: center; color: #6441A5;">
+
+
+        <br>
+      <br>
+      <br>
+      <br>
+        </div>
+        </div>
+      </div>
     </div>
+  </div>
+          <!--===============================================================================================-->
+  <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/vendor/bootstrap/js/popper.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/js/main.js"></script>
 
-
-   </body>
+</body>
 </html>
 
 

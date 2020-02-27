@@ -228,7 +228,7 @@ tbody tr {
 }
 
 tbody tr:hover {
-  color: #555555;
+  color: #f1b0b7;
   background-color: #f5f5f5;
   cursor: pointer;
 }

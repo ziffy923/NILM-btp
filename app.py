@@ -53,7 +53,9 @@ def predict(to_predict_list):
     # loaded_model = pickle.load(open("ds_model_all.pkl", "rb"))
     output_appliance = {}
     for app,i in zip(appliance_list,range(20)):
-        output_appliance[app] = (model_ds_all[i].predict(to_predict))
+        # output_appliance[app] = "".join(str(len(model_ds_all[i].predict(to_predict))))
+        output_appliance[app] = format(model_ds_all[i].predict(to_predict))
+
         # output_appliance.append(model_ds_all[i].predict(to_predict))
     # k = (json.dumps(output_appliance,cls=NumpyEncoder))
 
@@ -68,8 +70,13 @@ def results():
         to_predict_list = list(to_predict_list.values())
         to_predict_list = list(map(int,to_predict_list))
         results = predict(to_predict_list)
-
+        print(results)
+        print(results['oven_3'])
         return render_template("results.html", prediction=results)
+
+def format(value):
+    return "%.3f" % value
+
 
 if __name__ == '__main__':
     app.run(port = 5000, debug=True)
