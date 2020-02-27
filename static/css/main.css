@@ -304,10 +304,10 @@ tbody tr:hover {
 		content: "Input";
 	}
   table tbody tr td:nth-child(1):before {
-    content: "Label";
+    content: "Appliance";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Probability";
+    content: "Power ";
   }
   table tbody tr td:nth-child(3):before {
     content: "Name";
