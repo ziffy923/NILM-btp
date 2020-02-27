@@ -30,7 +30,7 @@ app = Flask(__name__)
 
 @app.route('/index')
 def index():
-    return flask.render_template('index.html')
+    return flask.render_template('new_html.html')
 
 def predict(to_predict_list):
     # get data

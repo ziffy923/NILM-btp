@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a48be0-7e79-4512-ab9a-8f96778fa078" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_model_all_new.pklz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dst_refree.pklz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/Decision tree for refrigerator_ train on house 1, predict on house 2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/Real and predict Refrigerator on 6 test day of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/bathroom_gfi_12 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/dishwaser_6 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/electric_heat_13 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/kitchen_outlets_15 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/kitchen_outlets_16 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/kitchen_outlets_7 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/kitchen_outlets_8 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/lighting_17 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/lighting_18 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/lighting_9 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/microwave_11 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/oven_3 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/oven_4 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/stove_14 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/washer_dryer_10 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/washer_dryer_19 - real and predict on 6 day test data of house 1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/washer_dryer_20 - real and predict on 6 day test data of house 1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/NILM-btp.iml" afterPath="$PROJECT_DIR$/.idea/NILM-btp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/styles/style.css" afterPath="$PROJECT_DIR$/static/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/results.html" afterPath="$PROJECT_DIR$/templates/results.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,8 +24,8 @@
       <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+            <state relative-caret-position="-264">
+              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -68,25 +43,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1059">
-              <caret line="86" column="15" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="15" />
+            <state relative-caret-position="1817">
+              <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new_html.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/new_html.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="104" column="81" lean-forward="false" selection-start-line="104" selection-start-column="81" selection-end-line="104" selection-end-column="81" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1582766621551" expanded="true" signature="4256:4371" ph="..." />
+                <marker date="1582766621551" expanded="true" signature="4270:4354" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/styles/style.css">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1960">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="294">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +98,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -108,6 +110,7 @@
       <find>wrapper</find>
       <find>model_ds_all</find>
       <find>option</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,10 +122,13 @@
         <option value="$PROJECT_DIR$/house_1/ProcFile" />
         <option value="$PROJECT_DIR$/house_1/Data/Procfile" />
         <option value="$PROJECT_DIR$/house_1/Procfile" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/results.html" />
         <option value="$PROJECT_DIR$/static/styles/style.css" />
+        <option value="$PROJECT_DIR$/new_html.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/new_html.html" />
       </list>
     </option>
   </component>
@@ -170,6 +176,18 @@
               <item name="NILM-btp" type="b2602c69:ProjectViewProjectNode" />
               <item name="NILM-btp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NILM-btp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NILM-btp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NILM-btp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NILM-btp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +206,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BTP Project\btp-git\NILM-btp\templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -319,7 +343,8 @@
         <state relative-caret-position="777">
           <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -345,7 +370,8 @@
         <state relative-caret-position="3276">
           <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -435,13 +461,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
+    <entry file="file://$PROJECT_DIR$/static/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1817">
+          <caret line="124" column="29" lean-forward="false" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -453,20 +477,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1960">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="-264">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/new_html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="104" column="81" lean-forward="false" selection-start-line="104" selection-start-column="81" selection-end-line="104" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1582766621551" expanded="true" signature="4256:4371" ph="..." />
+            <marker date="1582766621551" expanded="true" signature="4270:4354" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
-          <caret line="86" column="15" lean-forward="false" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="15" />
+        <state relative-caret-position="273">
+          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

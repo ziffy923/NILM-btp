@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <title>NILM Deep Learning Model</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="static/images/icons/cat.png"/>
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="static/css/util.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--===============================================================================================-->
+</head>
+
+<body>
+
+  <style>
+    body{
+      /*background-image: url("static/images/gifs/ezgif.com-rotate.gif"), url("static/images/gifs/ezgif.com-crop.gif");*/
+      background-size: auto;
+      background-position: 95% 10%, 5% 10%;
+      /* background-position: right center, left center; */
+      background-size: 20%;
+      background-attachment: inherit;
+      background-repeat: no-repeat, no-repeat;
+      background-color: #E6E2E1;
+    }
+  </style>
+
+  <div id="example1" class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100">
+          <div style="max-width:25%; margin-left: auto; margin-right: auto;">
+            <center>
+              <img src="https://www.iitr.ac.in/departments/CSE/uploads/Misc/IITR_logo/IITR_new_logo_color.jpg" alt="IIT Roorkee Logo" width="400" height="400">
+            </center>
+          </div>
+
+  <form action="/result" method="POST">
+    <div style="text-align: center;">
+      <br>
+        <h1 class="headertext">NILM Deep Learning Prediction</h1>
+
+        <br>
+        <br>
+        <br>
+
+        <p>The data is taken from a REDD website. The trained deep learning model is made available to predict the energy segregator.The model is <b>95%</b>(approx) accurate. Enjoy! 
+
+        <br> 
+        <br>
+        <p align="center"> PS: the site is still under construction.</p>
+        <br>
+        Instruction : fill the form to predict which appliance is running on mains power.
+        <br>
+        <br>
+        <center>
+
+        <label for="mains_1">Mains 1 (in Watts)</label>
+        <input align = "center" type="text" autofocus="autofocus" maxlength="500" type="text" id="mains_1" name="mains_1" placeholder=" Mains_1" required="required" />
+        <br>
+        <br>
+        </center>
+
+        <center>
+        <label for="mains_2">Mains 2 (in Watts)</label>
+        <input align = "center" type="text" autofocus="autofocus" maxlength="500" id="mains_2" name="mains_2" placeholder=" Mains_2" required="required" />
+        <br>
+        <br>
+        <center>
+
+        <center>
+        <input align="center" type="submit" value="Predict Appliance" method="get" style="border:0;" >
+        <center>
+
+        </div>
+        </form>
+
+
+    <!-- {% for p in prediction %}
+      <br>  {{p['name']}}:{{ (100*p['prob']) | round }}%
+    {% endfor %} -->
+  </p>
+          <div style="text-align: center; color: #808080;">
+          <!-- <a href="https://www.linkedin.com/in/ml-bishnoi/">Mangi Lal God</a> and -->
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <li> <a> authors - Mangi Lal ,Mahaprasad Parida, Shubham Chitransh </a>
+
+          </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!--===============================================================================================-->
+  <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/vendor/bootstrap/js/popper.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script src="static/js/main.js"></script>
+
+</body>
+</html>
